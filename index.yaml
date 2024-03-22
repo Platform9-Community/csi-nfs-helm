@@ -8,6 +8,6 @@ entries:
     digest: 37abd9c09db1281cfc4ef2adfa024350d32c59264b0f8f71e0535fed3e5e7582
     name: csi-driver-nfs
     urls:
-    - csi-driver-nfs-v4.6.0.tgz
+    - https://platform9-community.github.io/csi-nfs-helm/csi-driver-nfs-v4.6.0.tgz
     version: v4.6.0
 generated: "2024-03-22T17:36:06.908320673-04:00"
