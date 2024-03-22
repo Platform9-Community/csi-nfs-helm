@@ -10,4 +10,24 @@ entries:
     urls:
     - https://platform9-community.github.io/csi-nfs-helm/csi-driver-nfs-v4.6.0.tgz
     version: 4.6.0
+  - apiVersion: v1
+    appVersion: 1.7.8
+    created: "2021-06-30T18:13:33.664075+05:30"
+    description: A Helm chart for Fluent-Bit. A Fast and lightweight log processor
+      and forwarder or Linux, OSX and BSD family operating systems. It supports platform9
+      cluster types BareOS, AWS, Azure, EKS. To send logs to elastic cloud's Elasticsearch
+      do update values.yaml during deploy with cloud_id and cloud_auth of your [elastic
+      cloud](https://docs.fluentbit.io/manual/pipeline/outputs/elasticsearch).
+    digest: 853d6a47caaf1a219682b3219cadc47afe4a85bea2e2f71cd3bcb4dfc4c8b7a5
+    home: https://github.com/platform9/helm-charts
+    icon: https://fluentbit.io/assets/img/logo1-default.png
+    keywords:
+    - fluent-bit
+    - elasticsearch
+    name: fluent-bit-elasticsearch
+    sources:
+    - https://github.com/platform9/helm-charts
+    urls:
+    - https://github.com/platform9/helm-charts/releases/download/fluent-bit-elasticsearch-0.15.14/fluent-bit-elasticsearch-0.15.14.tgz
+    version: 0.15.14
 generated: "2024-03-22T18:22:02.644594847-04:00"
